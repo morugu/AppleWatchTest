@@ -25,7 +25,7 @@ class InterfaceController: WKInterfaceController {
     }
 
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+        // This method is called when watch view controller is no longer visibleaaaa
         super.didDeactivate()
     }
     
