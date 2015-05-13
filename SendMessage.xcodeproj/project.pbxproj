@@ -19,7 +19,6 @@
 		D1F448A91B02F01300A6D976 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F448A71B02F01300A6D976 /* Interface.storyboard */; };
 		D1F448AB1B02F01300A6D976 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F448AA1B02F01300A6D976 /* Images.xcassets */; };
 		D1F448AE1B02F01300A6D976 /* SendMessage WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1F448961B02F01300A6D976 /* SendMessage WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D1F448B71B030B0900A6D976 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D1F448B61B030B0900A6D976 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +78,6 @@
 		D1F448A61B02F01300A6D976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F448A81B02F01300A6D976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D1F448AA1B02F01300A6D976 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D1F448B61B030B0900A6D976 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 		D1F448641B02EFF500A6D976 = {
 			isa = PBXGroup;
 			children = (
-				D1F448B61B030B0900A6D976 /* images.jpeg */,
 				D1F4486F1B02EFF500A6D976 /* SendMessage */,
 				D1F448851B02EFF500A6D976 /* SendMessageTests */,
 				D1F448971B02F01300A6D976 /* SendMessage WatchKit Extension */,
@@ -328,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F448781B02EFF500A6D976 /* Main.storyboard in Resources */,
-				D1F448B71B030B0900A6D976 /* images.jpeg in Resources */,
 				D1F4487D1B02EFF500A6D976 /* LaunchScreen.xib in Resources */,
 				D1F4487A1B02EFF500A6D976 /* Images.xcassets in Resources */,
 			);
