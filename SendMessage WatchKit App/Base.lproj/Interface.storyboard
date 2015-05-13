@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SendMessage_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="ベストだったか？" textAlignment="center" id="0Km-se-Hjv"/>
+                        <button width="1" alignment="left" title="やりきった！" id="UTy-8p-Vee">
+                            <color key="backgroundColor" red="1" green="0.036775884629999998" blue="0.080357170480000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapBtn" destination="AgC-eL-Hgc" id="BdR-y8-N5S"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="まだやれた.." id="32C-wH-KhO">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="tapBtn2" destination="AgC-eL-Hgc" id="sAO-3y-8vf"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="myLabel" destination="0Km-se-Hjv" id="zTX-8E-XVN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="243" y="340"/>
+        </scene>
+    </scenes>
+</document>
