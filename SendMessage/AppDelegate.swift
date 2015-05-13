@@ -58,7 +58,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         
-        reply(["fromApp":"CountUp\(countStr)"])
+        reply(["fromApp":"Count\(countStr)"])
         
         
     }
